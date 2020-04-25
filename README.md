@@ -21,7 +21,7 @@ Oculus Go/Questは、OSがAndroidであるコンピュータにVRゴーグルが
 | Quest | Goの回転に加え、ゴーグルの平行移動をxyzの3軸について検出できる |
 
 これがないと始まらない。Questが望ましいがGoでも可。
-- [Oculus Go/Quest](https://developer.oculus.com)
+- [Oculus Go/Quest開発者サイト](https://developer.oculus.com)
 ## MacまたはWindowsマシン、ネットワーク環境、Unity、Blender
 アプリの開発自体はMacまたはWindowsマシンでUnityという開発ツールを使って行う。
 - [Unity](https://unity.com/ja)
@@ -39,17 +39,18 @@ Unity、Blenderはインターネットからのダウンロードとなる。
 Unityをダウンロードしインストールする。
 この際にAndroidアプリを作れるようにする。
 すでにインストール済みでAndroidアプリ作成未対応なら、Unity Hubを立ち上げ、インストールタブでインストールされているUnityのメニューからAndroid Build SupportおよびAndroid SDK & NDK Tools、OpenJDKにチェックを入れてインストールする。
-
-
-
 ## Oculus Go/Questを開発者モードにする
-
+- Oculus Go/Quest開発者サイトで開発者登録する
+- スマートフォンまたはタブレットにOculusアプリをインストールする
+- 使用するOculus Go/QuestをOculusアプリに登録する
+- 登録したOculus Go/Quest項目をタップすると設定に進めるので開発者モードを設定する
+## Windowsマシンからの転送にはOculus ADB DriversをWindowsマシンにインストールする
 - [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/)
-
-# Unityでプロジェクトの作成
-開発するOculus Go/Questアプリのプロジェクトを作成する。このリポジトリでは以下が該当する。
-- [tank-girl-unity]()
+## MacまたはWindowsマシンとOculus Go/QuestをUSBケーブルで繋ぐ
+Oculus Go/Questの電源を入れてUSBケーブルを繋ぐと、初めての時はOculus Go/Quest側でMacまたはWindowsマシンとの接続を許可するか聞かれるので許可する。
+# Unityでプロジェクトの登録
+開発するOculus Go/QuestアプリのプロジェクトをUnityHubに登録しプロジェクトを開く。
 # 実行
-起動したプロエクトのFile>Build and Runメニューを選ぶと、アプリがビルドされ、繋がれたOculus Go/Questに転送、実行される。
+起動したプロジェクトでFile>Build and Runメニューを選ぶと、アプリがビルドされ、繋がれたOculus Go/Questに転送、実行される。
 
 
