@@ -37,12 +37,9 @@ Unity、Blenderはインターネットからのダウンロードとなるの�
 
 注意）Windowsマシンからの転送にはOculus ADB Driversも必要となる
 ## Unityをインストールしておく
-上述のUnityサイトからUnityをダウンロードしインストールする。
-
-この際にアプリを動かしたい環境（プラットフォーム）を尋ねられるので、Android環境を含めること。
-
-すでにUnityをインストール済みでAndroidプラットフォーム未対応なら、Unity Hubを立ち上げてモジュールを追加する。
-
+上述のUnityサイトからUnityをダウンロードしインストールする。<br/>
+この際にアプリを動かしたい環境（プラットフォーム）を尋ねられるので、Android環境を含めること。<br/>
+すでにUnityをインストール済みでAndroidプラットフォーム未対応なら、Unity Hubを立ち上げてモジュールを追加する。<br/>
 Unity Hubホーム画面のインストールタブを選び、インストールされているUnityのメニューから「モジュールを加える」を選び、Android Build SupportおよびAndroid SDK & NDK Tools、OpenJDKにチェックを入れてインストールする。
 ## Oculus Go/Questを開発者モードにする
 - 上述のOculus Go/Quest開発者サイトで開発者登録する
@@ -50,7 +47,7 @@ Unity Hubホーム画面のインストールタブを選び、インストー�
 - 使用するOculus Go/QuestをOculusアプリに登録する
 - Oculusアプリで登録したOculus Go/Quest項目をタップすると設定に進めるので開発者モードを設定する
 
-[https://apps.apple.com/us/app/oculus/id1366478176](Oculusアプリ（iOS）)
+[Oculusアプリ（iOS）](https://apps.apple.com/us/app/oculus/id1366478176)
 [Oculusアプリ（Android）](https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=ja)
 
 [GoogleでのOculus Go/Questを開発者モード設定方法検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
