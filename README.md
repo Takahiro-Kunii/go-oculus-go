@@ -9,9 +9,9 @@ UnityでOculus Go/Quest用のVRアプリを作成する。各アプリのプロ�
 # 必要なもの
 - Oculus Go/Quest
 - MacまたはWindowsマシン
-- ネットワーク環境
+- インターネット接続環境
 - Unity
-- Blender
+- Blender（3Dモデルを作成・修正するなら利用、既存のものをそのまま使うなら不要）
 
 ## Oculus Go/Quest
 Oculus Go/Questは、OSがAndroidであるコンピュータにVRゴーグルが1体となったデバイス。VRゴーグル、アプリの実行環境として利用する。
@@ -22,28 +22,39 @@ Oculus Go/Questは、OSがAndroidであるコンピュータにVRゴーグルが
 
 これがないと始まらない。Questが望ましいがGoでも可。
 - [Oculus Go/Quest開発者サイト](https://developer.oculus.com)
-## MacまたはWindowsマシン、ネットワーク環境、Unity、Blender
+## MacまたはWindowsマシン、インターネット接続環境、Unity、Blender
 アプリの開発自体はMacまたはWindowsマシンでUnityという開発ツールを使って行う。
 - [Unity](https://unity.com/ja)
 
 BlenderはこのUnityで扱う3Dモデルを作成するために使用する。
 - [Blender](https://www.blender.org)
 
-Unity、Blenderはインターネットからのダウンロードとなる。
+Unity、Blenderはインターネットからのダウンロードとなるのでインターネット接続環境が必要。
 # 準備
 - MacまたはWindowsマシンにUnityをインストールしておく
-- アプリ開発にあたりOculus Go/Questは開発者モードにしておかなければならない
-- MacまたはWindowsマシンで開発したアプリをOculus Go/Questに転送させるため、両者間をUSBケーブルで繋ぐ必要がある
-- Windowsマシンからの転送にはOculus ADB Driversも必要となる
+- アプリ開発にあたりOculus Go/Questは開発者モードにしておく
+- MacまたはWindowsマシンで開発したアプリをOculus Go/Questに転送させるため、両者間をUSBケーブルで繋ぐ
+
+注意）Windowsマシンからの転送にはOculus ADB Driversも必要となる
 ## Unityをインストールしておく
-Unityをダウンロードしインストールする。
-この際にAndroidアプリを作れるようにする。
-すでにインストール済みでAndroidアプリ作成未対応なら、Unity Hubを立ち上げ、インストールタブでインストールされているUnityのメニューからAndroid Build SupportおよびAndroid SDK & NDK Tools、OpenJDKにチェックを入れてインストールする。
+上述のUnityサイトからUnityをダウンロードしインストールする。
+
+この際にアプリを動かしたい環境（プラットフォーム）を尋ねられるので、Android環境を含めること。
+
+すでにUnityをインストール済みでAndroidプラットフォーム未対応なら、Unity Hubを立ち上げてモジュールを追加する。
+
+Unity Hubホーム画面のインストールタブを選び、インストールされているUnityのメニューから「モジュールを加える」を選び、Android Build SupportおよびAndroid SDK & NDK Tools、OpenJDKにチェックを入れてインストールする。
 ## Oculus Go/Questを開発者モードにする
-- Oculus Go/Quest開発者サイトで開発者登録する
+- 上述のOculus Go/Quest開発者サイトで開発者登録する
 - スマートフォンまたはタブレットにOculusアプリをインストールする
 - 使用するOculus Go/QuestをOculusアプリに登録する
-- 登録したOculus Go/Quest項目をタップすると設定に進めるので開発者モードを設定する
+- Oculusアプリで登録したOculus Go/Quest項目をタップすると設定に進めるので開発者モードを設定する
+
+[https://apps.apple.com/us/app/oculus/id1366478176](Oculusアプリ（iOS）)
+[Oculusアプリ（Android）](https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=ja)
+
+[GoogleでのOculus Go/Questを開発者モード設定方法検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
+
 ## Windowsマシンからの転送にはOculus ADB DriversをWindowsマシンにインストールする
 - [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/)
 ## MacまたはWindowsマシンとOculus Go/QuestをUSBケーブルで繋ぐ
