@@ -48,6 +48,7 @@ Unity Hubホーム画面のインストールタブを選び、インストー�
 - Oculusアプリで登録したOculus Go/Quest項目をタップすると設定に進めるので開発者モードを設定する
 
 [Oculusアプリ（iOS）](https://apps.apple.com/us/app/oculus/id1366478176)
+
 [Oculusアプリ（Android）](https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=ja)
 
 [GoogleでのOculus Go/Questを開発者モード設定方法検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
