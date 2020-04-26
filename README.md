@@ -54,9 +54,11 @@ Unity Hubホーム画面のインストールタブを選び、インストー�
 [GoogleでOculus Go/Questの開発者モードを設定する方法を検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
 
 ## Windowsマシンからの転送にはOculus ADB DriversをWindowsマシンにインストールする
+上述のOculus Go/Quest開発者サイトにOculus ADB Driversをダウンロードするページがあるので、ダウンロードしインストールする。後はUnityが自動で使ってくれる。
 - [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/)
 ## MacまたはWindowsマシンとOculus Go/QuestをUSBケーブルで繋ぐ
-Oculus Go/Questの電源を入れてUSBケーブルを繋ぐと、初めての時はOculus Go/Quest側でMacまたはWindowsマシンとの接続を許可するか聞かれるので許可する。
+Oculus Go/Questの電源を入れてUSBケーブルを繋ぐ。<br/>
+ちなみに、初めて繋いだ時はOculus Go/Quest側でMacまたはWindowsマシンとの接続を許可するか聞かれるので許可すること。
 # Unityでプロジェクトの登録
 開発するOculus Go/QuestアプリのプロジェクトをUnityHubに登録しプロジェクトを開く。
 # 実行
