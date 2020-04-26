@@ -51,7 +51,7 @@ Unity Hubホーム画面のインストールタブを選び、インストー�
 
 [Oculusアプリ（Android）](https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=ja)
 
-[GoogleでのOculus Go/Questを開発者モード設定方法検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
+[GoogleでOculus Go/Questの開発者モードを設定する方法を検索](https://www.google.com/search?client=safari&rls=en&q=Oculus+Go/Quest+%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89&ie=UTF-8&oe=UTF-8)
 
 ## Windowsマシンからの転送にはOculus ADB DriversをWindowsマシンにインストールする
 - [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/)
