@@ -38,9 +38,13 @@ Unity、Blenderはインターネットからのダウンロードとなるの�
 注意）Windowsマシンからの転送にはOculus ADB Driversも必要となる
 ## Unityをインストールしておく
 上述のUnityサイトからUnityをダウンロードしインストールする。<br/>
-この際にアプリを動かしたい環境（プラットフォーム）を尋ねられるので、Android環境を含めること。<br/>
-すでにUnityをインストール済みでAndroidプラットフォーム未対応なら、Unity Hubを立ち上げてモジュールを追加する。<br/>
+この際にアプリを動かしたい環境（プラットフォーム）を尋ねられるので、Android環境を含めること。
+### すでにUnityをインストール済みでAndroidプラットフォーム未対応の場合
+Unity Hubを立ち上げてモジュールを追加する。<br/>
 Unity Hubホーム画面のインストールタブを選び、インストールされているUnityのメニューから「モジュールを加える」を選び、Android Build SupportおよびAndroid SDK & NDK Tools、OpenJDKにチェックを入れてインストールする。
+
+![](docs/add-module.png)
+
 ## Oculus Go/Questを開発者モードにする
 - 上述のOculus Go/Quest開発者サイトで開発者登録する
 - スマートフォンまたはタブレットにOculusアプリをインストールする
