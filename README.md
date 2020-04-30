@@ -64,8 +64,19 @@ Unity Hubホーム画面のインストールタブを選び、インストー�
 Oculus Go/Questの電源を入れてUSBケーブルを繋ぐ。<br/>
 ちなみに、初めて繋いだ時はOculus Go/Quest側でMacまたはWindowsマシンとの接続を許可するか聞かれるので許可すること。
 # Unityでプロジェクトの登録
-開発するOculus Go/QuestアプリのプロジェクトをUnityHubに登録しプロジェクトを開く。
+開発するOculus Go/QuestアプリのプロジェクトをUnityHubに登録しプロジェクトを開く。<br/>
+例えば、このリポジトリのhelloプロジェクトを登録するなら、UnityHubのプロジェクト画面で、リストに追加ボタンを押し、go-oculus-go/helloフォルダを指定すれば次のように登録される。
+
+![](docs/add-to-list-1.png)
+
+この項目をクリックすればhelloプロジェクトが開かれる。<br/>
+クリックの前にターゲットをAndroidにしておけば、プロジェクト画面が出た後で、File>Build Settings…メニューで出てくるBuild Settings画面でAndroidを選択しSwitch Platformボタンを押す手間が省ける。
+
+![](docs/select-platform.png)
+
 # 実行
 起動したプロジェクトでFile>Build and Runメニューを選ぶと、アプリがビルドされ、繋がれたOculus Go/Questに転送、実行される。
 
+作業でつまったら、以下のWikiも参照してみる。
 
+[Oculus-Go・Questで動くアプリの作成](wiki/Oculus-Go・Questで動くアプリの作成)
