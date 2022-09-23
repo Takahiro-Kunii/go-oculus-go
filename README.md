@@ -80,3 +80,7 @@ Oculus Go/Questの電源を入れてUSBケーブルを繋ぐ。<br/>
 作業でつまったら、以下のWikiも参照してみる。
 
 [Oculus-Go・Questで動くアプリの作成](https://github.com/Takahiro-Kunii/go-oculus-go/wiki/Oculus-Go・Questで動くアプリの作成)
+
+
+# XR Interaction Toolkitを使うべきかOculus Interaction SDKを使うべきか
+Oculus Interaction SDKを使うとOculus限定となる。が、ハンドジェスチャなどは2022年現在、こちらが充実している。
