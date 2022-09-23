@@ -84,3 +84,9 @@ Oculus Go/Questの電源を入れてUSBケーブルを繋ぐ。<br/>
 
 # XR Interaction Toolkitを使うべきかOculus Interaction SDKを使うべきか
 Oculus Interaction SDKを使うとOculus限定となる。が、ハンドジェスチャなどは2022年現在、こちらが充実している。
+
+* [XR Interaction Toolkitの解説](https://makumakuworks.hatenablog.com/entry/xrit_controller)
+* [Unity 本家](https://docs.unity3d.com/ja/Packages/com.unity.xr.interaction.toolkit@2.0/manual/index.html)
+* [Oculus Interaction SDKの解説](https://xrdnk.hateblo.jp/archive/category/Oculus%20Interaction%20SDK)
+* [Oculus 本家](https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/?locale=ja_JP)
+
